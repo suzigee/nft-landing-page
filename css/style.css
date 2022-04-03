@@ -8,7 +8,7 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #000000;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #be7efe;
@@ -69,7 +69,7 @@ header .container {
   font-size: 1rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color);
+  box-shadow: 0px 0px 0 0 var(--accent-color);
   cursor: pointer;
   position: relative;
   text-decoration: none;
