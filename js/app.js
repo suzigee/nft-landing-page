@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
         onboarding.startOnboarding();
       };
     } else if (accounts && accounts.length > 0) {
-      onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
+      onboardButton.innerText = `✔ ...${accounts[0].slice(-6)}`;
       onboardButton.disabled = true;
       onboarding.stopOnboarding();
       checkOwner(accounts[0]);
@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', () => {
           method: 'eth_requestAccounts',
         })
         .then(function(accounts) {
-          onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
+          onboardButton.innerText = `✔ ...${accounts[0].slice(-6)}`;
           onboardButton.disabled = true;
           checkOwner(accounts[0]);
         });
