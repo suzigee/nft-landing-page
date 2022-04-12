@@ -11,7 +11,7 @@
   --bg-color: #000000;
   --font-color: #ffffff;
   --btn-bg-color: #7ddbe6;
-  --accent-color: #ffffff;
+ 
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -86,7 +86,7 @@ header .container {
 }
 
 .hero-btn {
-  border-radius: 0px;
+  border-radius: 4px;
   font-size: 1.2rem;
   padding: 1.5rem 3rem;
 }
