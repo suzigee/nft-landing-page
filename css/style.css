@@ -10,7 +10,7 @@
   --font-code: 'Poppins', monospace;
   --bg-color: #000000;
   --font-color: #ffffff;
-  --btn-bg-color: #7ddbe6;
+  --btn-bg-color: #c253c9;
  
   --header-shadow: #000 0px 0px 5px;
 }
@@ -86,7 +86,7 @@ header .container {
 }
 
 .hero-btn {
-  border-radius: 4px;
+  border-radius: 0px;
   font-size: 1.2rem;
   padding: 1.5rem 3rem;
 }
