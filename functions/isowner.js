@@ -1,7 +1,7 @@
 const fetch = require('node-fetch')
 
 const CONTRACT = process.env.CONTRACT_ADDRESS;
-const AUTH = process.env.NFTPORT_AUTH;
+const AUTH = process.env.BLOCK_EXPLORER_API_KEY;
 const chain = "ethereum";
 const include = "metadata";
 
